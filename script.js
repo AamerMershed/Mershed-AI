@@ -84,7 +84,9 @@ const handleSubmit = async (e) => {
     const messageDiv = document.getElementById(uniqueId)
 
     // messageDiv.innerHTML = "..."
+     loader(messageDiv)
     
+ 
 
     const response = await fetch('https://mershed-ai.onrender.com/', {
         method: 'POST',
