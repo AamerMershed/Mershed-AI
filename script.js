@@ -17,7 +17,7 @@ function loader(element) {
         if (element.textContent === '....') {
             element.textContent = '';
         }
-    }, 30000);
+    }, 3000);
 }
 
 function typeText(element, text) {
